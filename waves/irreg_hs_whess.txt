@@ -1,0 +1,13 @@
+begin wkin_input ;
+  wavetype 1 ;  
+  wdepth  52 ;
+  begin ireg_airy ;
+    stretching 1;     0=none, 1=wheeler
+    spectrum 1;
+    jonswap 13.3 16.8 1.6;
+    coef 1500 34742;
+    pregen 1;
+  end;
+end;
+;
+exit ;
